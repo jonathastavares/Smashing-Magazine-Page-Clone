@@ -102,18 +102,61 @@ a:last-of-type:hover {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
   justify-content: space-evenly;
-
+  margin: 10px;
 }
 
 .sc2-articles > * {
   height: 700px;
-  background: #D3D3D3	;
-  margin: 10px;
+  background: #D3D3D3;
+  padding: 50px;
+}
+
+.sc2-article-4 > h1, .sc2-article-9 > h1 {
+  font-size: 3em;
+  text-decoration: underline;
+  text-decoration-color: #d33a2c;
+
+  /* font-family: Mija; */
+}
+
+.sc2-article-4 > p, .sc2-article-9 > p {
+  font-size: 1.2em;
+
+  /* font-family: Elena; */
+}
+
+.sc2-article-4 > p:last-of-type, .sc2-article-9 > p:last-of-type {
+  font-size: 1em;
+}
+
+.sc2-article-4 > p > a, .sc2-article-9 > p > a {
+  color: white;
+
+  /* font-family: Elena; */
+}
+
+.sc2-article-4 > a, .sc2-article-9 > a {
+  color: #267dcc;
+  font-size: 1.5em;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .sc2-article-4, .sc2-article-9 {
   background: #696969	;
   border-radius: 20px;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.sc2-img {
+  height: 250px;
+  width: auto;
 }
 
 /* Table of content */
