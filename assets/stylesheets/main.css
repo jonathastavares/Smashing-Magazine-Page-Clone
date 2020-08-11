@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -216,8 +220,34 @@ a:last-of-type:hover {
 /* Featured */
 .featured {
   height: 420px;
-  background: #696969
+  background: #696969;
+  color: white;
+  padding: 10px 0 0 10px;
 }
+
+.featured h2{
+  font-size: 1.2em;
+  margin: 10px;
+}
+
+.featured h1{
+  font-size: 2em;
+  margin: 10px;
+}
+
+.featured p {
+  max-width: 50%;
+  margin: 10px;
+}
+
+.featured a {
+  text-decoration: none;
+  font-size: 1.5em;
+  padding: 10px;
+  background: white;
+  border-radius: 10px;
+}
+
 
 /* Guides */
 .guides {
