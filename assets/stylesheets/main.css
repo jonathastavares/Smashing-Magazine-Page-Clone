@@ -217,5 +217,55 @@ a:last-of-type:hover {
 
 .ft {
   height: 630px;
-  background-color: 696969;
+  background-color: #696969;
+  text-align: center;
+  color: white;
+}
+
+.ft > h5 {
+  font-size: 1.2em;
+  padding-top: 50px;
+}
+
+.ft-links {
+  flex-wrap: wrap;
+  max-width: 90%;
+  margin: 30px auto;
+  list-style: circle;
+  justify-content: center;
+}
+
+.ft-links > li {
+  margin: 0 15px;
+  font-size: 1.8em;
+  line-height: 1.5;
+}
+
+.ft-text {
+  font-size: 1em;
+  width: 25%;
+  margin: 30px auto;
+  line-height: 1.5;
+}
+
+.ft-text > a {
+  color: white;
+}
+
+.ft-links-2 {
+  flex-wrap: wrap;
+  max-width: 30%;
+  margin: 30px auto;
+  list-style: circle;
+  justify-content: center;
+}
+
+.ft-links-2 > li {
+  margin: 0 15px;
+  font-size: 1.1em;
+  line-height: 1.5;
+}
+
+.ft-links-2 > li > a {
+  color:white;
 }
