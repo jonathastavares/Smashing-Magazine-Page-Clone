@@ -161,8 +161,32 @@ a:last-of-type:hover {
 
 /* Table of content */
 .table-of-content {
-  height: 100vh;
-  background: #696969	
+  padding: 20%;
+  height: 200px;
+  background: #696969;	
+  color: white;
+  text-align: center;
+}
+
+.table-of-content h1 {
+  font-size: 3em;
+}
+
+.table-of-content p {
+  font-size: 2em;
+  margin: 0 auto;
+}
+
+
+.table-of-content a {
+  margin-top: 200px;
+  font-size: 2em;
+  font-weight: bolder;
+  background: white;
+  color: #696969;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 10px;
 }
 
 /* Community Links */
