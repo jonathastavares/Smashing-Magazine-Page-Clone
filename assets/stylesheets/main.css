@@ -151,3 +151,10 @@ body {
   background: blueviolet;
   height: 790px;
 }
+
+/* Footer Section */
+
+.ft {
+  height: 630px;
+  background-color: #494848;
+}
