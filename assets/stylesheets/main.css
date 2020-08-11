@@ -127,3 +127,27 @@ body {
   height: 320px;
   background-color: rgb(64, 126, 62);
 }
+
+/* Featured */
+.featured {
+  height: 420px;
+  background: #D4D4D4
+}
+
+/* Guides */
+.guides {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 30px;
+}
+
+.guides > * {
+  background-color: brown;
+  height: 790px;
+}
+
+.guide-4 {
+  background: blueviolet;
+  height: 790px;
+}
