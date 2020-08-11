@@ -8,13 +8,14 @@ body {
   display: flex;
 }
 
+/* Navbar */
 .navbar {
   height: 100px;
   background-color: rgba(185, 7, 7, 0.842);
   justify-content: space-between;
   align-items: center;
-  padding: 0px 40px;
-  font-family: Mija;
+  padding: 0 40px;
+  /* font-family: Mija; */
 }
 
 .nav-logo {
@@ -43,5 +44,5 @@ body {
   padding-left: 45px;
   font-size: 24px;
   color: rgba(49, 46, 46, 0.822);
-  text-decoration: ;
+  font-weight: bold;
 }
