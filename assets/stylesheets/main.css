@@ -222,7 +222,7 @@ a:last-of-type:hover {
   height: 420px;
   background: #696969;
   color: white;
-  padding: 10px 0 0 10px;
+  padding: 40px;
 }
 
 .featured h2{
@@ -237,7 +237,7 @@ a:last-of-type:hover {
 
 .featured p {
   max-width: 50%;
-  margin: 10px;
+  margin: 30px 0;
 }
 
 .featured a {
