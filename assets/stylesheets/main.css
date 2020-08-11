@@ -12,7 +12,7 @@ body {
 
 .navbar {
   height: 100px;
-  background-color: #494848;
+  background-color: #696969		;
   justify-content: space-between;
   align-items: center;
   padding: 0 40px;
@@ -59,22 +59,22 @@ body {
 
 .articles .article-1 {
   height:778px;
-  background-color: #726464;
+  background-color: #696969	;
 }
 
 .articles .article-2 {
   height:778px;
-  background-color: rgb(173, 158, 158);
+  background-color: #808080;
 }
 
 .articles .article-3 {
   height:778px;
-  background-color: #9c8e8e;
+  background-color: #808080;
 }
 
 .articles .article-4 {
   height:778px;
-  background-color:#726464;
+  background-color:#696969	;
 }
 
 /* Section 2 */
@@ -89,19 +89,19 @@ body {
 
 .sc2-articles > * {
   height: 700px;
-  background: blanchedalmond;
+  background: #D3D3D3	;
   margin: 10px;
 }
 
 .sc2-article-4, .sc2-article-9 {
-  background: #636363;
+  background: #696969	;
   border-radius: 20px;
 }
 
 /* Table of content */
 .table-of-content {
   height: 100vh;
-  background: #D4D4D4
+  background: #696969	
 }
 
 /* Community Links */
@@ -114,24 +114,24 @@ body {
 }
 
 .person-1, .person-3, .person-5{
-  background: rgb(169, 149, 189);
+  background: #C0C0C0;
   height: 276px;
 }
 
 .person-2, .person-4, .person-6{
-  background: rgb(74, 69, 78);
+  background: #C0C0C0;
   height: 276px;
 }
 
 .person-of-the-week {
   height: 320px;
-  background-color: rgb(64, 126, 62);
+  background-color: #696969;
 }
 
 /* Featured */
 .featured {
   height: 420px;
-  background: #D4D4D4
+  background: #696969
 }
 
 /* Guides */
@@ -143,12 +143,12 @@ body {
 }
 
 .guides > * {
-  background-color: brown;
+  background-color: #D3D3D3;
   height: 790px;
 }
 
 .guide-4 {
-  background: blueviolet;
+  background: #696969;
   height: 790px;
 }
 
@@ -156,5 +156,5 @@ body {
 
 .ft {
   height: 630px;
-  background-color: #494848;
+  background-color: 696969;
 }
