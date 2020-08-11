@@ -11,7 +11,7 @@ body {
 /* Navbar */
 .navbar {
   height: 100px;
-  background-color: rgba(185, 7, 7, 0.842);
+  background-color: #494848;
   justify-content: space-between;
   align-items: center;
   padding: 0 40px;
@@ -46,4 +46,31 @@ body {
   font-size: 24px;
   color: rgba(49, 46, 46, 0.822);
   font-weight: bold;
+}
+
+/*  Section 1 */
+.articles {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2,1fr);
+}
+
+.articles .article-1 {
+  height:778px;
+  background-color: #726464;
+}
+
+.articles .article-2 {
+  height:778px;
+  background-color: rgb(173, 158, 158);
+}
+
+.articles .article-3 {
+  height:778px;
+  background-color: #9c8e8e;
+}
+
+.articles .article-4 {
+  height:778px;
+  background-color:#726464;
 }
