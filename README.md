@@ -4,7 +4,7 @@
 
 > One paragraph statement about the project.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./screenshot.jpg)
 
 Additional description about the project and its features.
 
@@ -16,7 +16,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://raw.githack.com/jonathastavares/Smashing-Magazine-Page-Clone/Homepage/index.html)
 
 
 ## Getting Started
@@ -43,11 +43,11 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Author1**
+👤 **Jonathas Tavares**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@jonathastavares](https://github.com/jonathastavares)
+- Twitter: [@jhstavares](https://twitter.com/jhstavares)
+- Linkedin: [linkedin](https://www.linkedin.com/in/jonathas-tavares-24b8bba3/)
 
 👤 **Author2**
 
