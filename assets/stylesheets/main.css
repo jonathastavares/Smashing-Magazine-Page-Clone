@@ -38,6 +38,10 @@ body {
   margin-left: 5px;
 }
 
+a:last-of-type:hover {
+  background: grey;
+}
+
 .searchbar {
   width: 300px;
   height: 55px;
@@ -55,26 +59,40 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2,1fr);
+  font-family: 'Francois One', sans-serif;
+  color: white;
 }
 
 .articles .article-1 {
   height:778px;
   background-color: #696969	;
+  text-align: center;
+  padding: 80px;
+  font-size: 3em;
 }
 
 .articles .article-2 {
   height:778px;
   background-color: #808080;
+  text-align: center;
+  padding: 80px;
+  font-size: 3em;
 }
 
 .articles .article-3 {
   height:778px;
   background-color: #808080;
+  text-align: center;
+  padding: 80px;
+  font-size: 3em;
 }
 
 .articles .article-4 {
   height:778px;
-  background-color:#696969	;
+  background-color:#696969;
+  text-align: center;
+  padding: 80px;
+  font-size: 3em;
 }
 
 /* Section 2 */
