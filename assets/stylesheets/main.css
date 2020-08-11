@@ -174,7 +174,7 @@ a:last-of-type:hover {
 
 .table-of-content p {
   font-size: 2em;
-  margin: 0 auto;
+  margin: 30px auto;
 }
 
 
@@ -230,11 +230,60 @@ a:last-of-type:hover {
 .guides > * {
   background-color: #D3D3D3;
   height: 790px;
+  padding: 50px
 }
 
 .guide-4 {
   background: #696969;
   height: 790px;
+  color: white;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.guide-4 > img {
+  width: 100%;
+}
+
+.guide-4 > h1 {
+  font-size: 3.2em;
+  margin: 30px 0;
+}
+
+.guide-4 > p {
+  line-height: 1.5;
+  font-size: 2em;
+}
+
+.guide-4 > div > input {
+  padding: 15px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: 0;
+  width: 70%;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.guide-4 > div > button {
+  padding: 15px;
+  border: 0;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #acaaaa;
+  color: white;
+  font-weight: bold;
+  margin-left: -5px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  width: 25%;
+}
+
+.guide-4 > p:last-of-type {
+  line-height: 1.5;
+  font-size: 1em;
+  max-width: 40%;
+  margin: 0 auto;
 }
 
 /* Footer Section */
