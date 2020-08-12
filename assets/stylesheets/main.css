@@ -69,36 +69,21 @@ a:last-of-type {
   display: none;
 }
 
-.articles .article-1 {
+.articles > * {
   height: 778px;
+  text-align: center;
+  padding: 80px;
+  font-size: 3em;
+}
+
+.article-1,
+.article-4 {
   background-color: #696969;
-  text-align: center;
-  padding: 80px;
-  font-size: 3em;
 }
 
-.articles .article-2 {
-  height: 778px;
+.article-2,
+.article-3 {
   background-color: #808080;
-  text-align: center;
-  padding: 80px;
-  font-size: 3em;
-}
-
-.articles .article-3 {
-  height: 778px;
-  background-color: #808080;
-  text-align: center;
-  padding: 80px;
-  font-size: 3em;
-}
-
-.articles .article-4 {
-  height: 778px;
-  background-color: #696969;
-  text-align: center;
-  padding: 80px;
-  font-size: 3em;
 }
 
 /* Section 2 */
